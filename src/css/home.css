@@ -1,0 +1,123 @@
+.cap-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cap-item {
+    margin: 10px;
+    width: calc(25% - 20px);
+    height: calc(100% - 20px);
+}
+
+.cap-item a img {
+    width: 100%;
+    border-radius: var(--main);
+    height: 100%;
+    border-radius: var(--radius);
+    object-fit: cover;
+}
+
+.cap-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cap-title {
+    transition: var(--smooth);
+    max-width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.cap-picture {
+    position: relative;
+}
+
+.bg-hvr {
+    transition: var(--smooth);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+}
+
+.bg-hvr i {
+    transition: var(--smooth);
+    font-size: 40px;
+}
+
+.episode {
+    background-color: var(--secondary);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    padding: 5px;
+    border-radius: 0 5px 0 5px;
+}
+
+.cap-item:hover .bg-hvr {
+    opacity: 1;
+}
+
+.cap-item:hover .cap-title {
+    color: var(--primary);
+}
+
+.cap-type {
+    padding: 2px 5px;
+    border-radius: var(--radius);
+    background-color: var(--primary);
+}
+
+@media screen and (max-width: 968px) {}
+
+@media screen and (max-width: 678px) {
+    .cap-item {
+        margin: 10px;
+        width: calc(33.33% - 20px);
+        /* height: calc(100% - 20px); */
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .cap-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .cap-item {
+        margin: 10px;
+        width: 100%;
+    }
+    .cap-item a {
+        display: flex;
+    }
+    .cap-item a .cap-picture {
+        width: 40%;
+    }
+    .cap-item a .cap-info {
+        width: 60%;
+    }
+    .cap-item .cap-info {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 10px;
+    }
+    .cap-info .cap-title {
+        max-width: 90%;
+        margin-bottom: 10px;
+    }
+}

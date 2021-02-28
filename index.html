@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="msvalidate.01" content="1F2DDDCD3329DB029754BD057061D1CF" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="https://monoschinos2.com/assets/img/favicon.ico" />
+    <meta property="og:site_name" content="MonosChinos" />
+    <meta property="og:url" content="https://monoschinos2.com/" />
+    <meta property="og:title" content="Anime sub español y latino" />
+    <meta name="description" content="Monoschinos - El mejor anime online, subtitulado y/o doblado al español, en HD y completamente gratis. Aquí podrás ver y descargar todas tus series preferidas.">
+    <meta property="og:description" content="Monoschinos - El mejor anime online, subtitulado y/o doblado al español, en HD y completamente gratis. Aquí podrás ver y descargar todas tus series preferidas." />
+    <meta property="og:image" content="https://monoschinos2.com/assets/img/web.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/navbar.css">
+    <title>MonosChinos - Anime sub español y latino</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-logo">
+            <img src="https://tioanime.com/assets/img/icon-32x32.png" alt="" class="alt-logo">
+            <img src="https://monoschinos2.com/assets/img/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="nav-list">
+            <li class="nav-item">
+                <i class='bx bx-home'></i>
+                <a class="nav-link home">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <i class='bx bx-happy'></i>
+                <a class="nav-link">Animes</a>
+            </li>
+            <li class="nav-item">
+                <i class='bx bx-rss'></i>
+                <a class="nav-link">Emision</a>
+            </li>
+            <li class="nav-item">
+                <i class='bx bx-food-menu'></i>
+                <a class="nav-link">Directory</a>
+            </li>
+            <li class="nav-item doramas">
+                <i class='bx bx-tv'></i>
+                <a class="nav-link">Doramas</a>
+            </li>
+        </div>
+        <div class="nav-search">
+            <form class="search-form">
+                <input class="search-input" type="text" autocomplete="disabled" placeholder="Buscar anime...">
+                <button class="search-btn" type="submit">
+                    <i class='bx bx-search'></i>
+                </button>
+            </form>
+        </div>
+        <div class="nav-toggle" onclick="toggleMenu()"><i class='bx bx-menu-alt-right'></i></div>
+        <nav class="nav-overlay" id="nav-overlay">
+            <li class="nav-item-overlay">
+                <i class='bx bx-home'></i>
+                <a class="nav-link home">Inicio</a>
+            </li>
+            <li class="nav-item-overlay">
+                <i class='bx bx-happy'></i>
+                <a class="nav-link">Animes</a>
+            </li>
+            <li class="nav-item-overlay">
+                <i class='bx bx-rss'></i>
+                <a class="nav-link">Emision</a>
+            </li>
+            <li class="nav-item-overlay">
+                <i class='bx bx-food-menu'></i>
+                <a class="nav-link">Directory</a>
+            </li>
+            <li class="nav-item-overlay doramas">
+                <i class='bx bx-tv'></i>
+                <a class="nav-link">Doramas</a>
+            </li>
+            <form class="search-form">
+                <input class="search-input" type="text" autocomplete="disabled" placeholder="Buscar anime...">
+                <button class="search-btn" type="submit">
+                    <i class='bx bx-search'></i>
+                </button>
+            </form>
+        </nav>
+    </header>
+    <main id="home">
+        <h4 class="title-section"><i class='bx bx-time'></i>Capitulos recientes</h4>
+        <div class="cap-container">
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">8</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/Dr-Ramune-destacado-1000x600.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Kai Byoui Ramune</h5>
+                        <h5 class="cap-type">Anime</h5>
+                    </div>
+                </a>
+            </article>
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">8</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/Horimiya-anime.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Horimiya</h5>
+                        <h5 class="cap-type">Anime</h5>
+                    </div>
+                </a>
+            </article>
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">21</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/Yashahime-PV.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Hanyou no Yashahime: Sengoku Otogizoushi</h5>
+                        <h5 class="cap-type">Anime</h5>
+                    </div>
+                </a>
+            </article>
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">10</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/655454.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Dragon Quest: Dai no Daibouken (2020)</h5>
+                        <h5 class="cap-type">Anime</h5>
+                    </div>
+                </a>
+            </article>
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">01</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/525c187678f2ace78ce48e34d14223d61612928896_main.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Inou no AICis: ESP & High School Detective</h5>
+                        <h5 class="cap-type">Ona</h5>
+                    </div>
+                </a>
+            </article>
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">01</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/sakura-wars-kakumei.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Sakura Kakumei: Hanasaku Otome-tachi</h5>
+                        <h5 class="cap-type">Ona</h5>
+                    </div>
+                </a>
+            </article>
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">10</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/back-arrow-key-1000x600-1584867845.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Back Arrow</h5>
+                        <h5 class="cap-type">Anime</h5>
+                    </div>
+                </a>
+            </article>
+            <article class="cap-item">
+                <a href="" class="cap-link">
+                    <div class="cap-picture">
+                        <div class="episode">08</div>
+                        <div class="bg-hvr"><i class='bx bx-play'></i></div>
+                        <img src="https://monoschinos2.com/image/portada/290/165/kakushidungeon-web-scaled-e1588916258928.jpg" alt="">
+                    </div>
+                    <div class="cap-info">
+                        <h5 class="cap-title">Ore dake Haireru Kakushi Dungeon</h5>
+                        <h5 class="cap-type">Anime</h5>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
