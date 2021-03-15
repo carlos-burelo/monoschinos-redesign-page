@@ -15,18 +15,15 @@
     <meta property="og:image" content="https://monoschinos2.com/assets/img/web.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./src/css/global.css">
-    <link rel="stylesheet" href="./src/css/home.css">
-    <link rel="stylesheet" href="./src/css/navbar.css">
+    <link href='./src/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/css/main.css">
     <title>MonosChinos - Anime sub español y latino</title>
 </head>
 
 <body>
     <header class="navbar">
         <div class="nav-logo">
-            <img src="https://tioanime.com/assets/img/icon-32x32.png" alt="" class="alt-logo">
-            <img src="https://monoschinos2.com/assets/img/logo.png" alt="logo" class="logo">
+            <img src="https://tioanime.com/assets/img/icon-32x32.png" alt="" class="alt-logo3">
         </div>
         <div class="nav-list">
             <li class="nav-item">
@@ -57,8 +54,49 @@
                     <i class='bx bx-search'></i>
                 </button>
             </form>
+            <div class="search-result-container">
+                <div class="search-results">
+                    <ul class="list-results">
+                        <li class="result-item">
+                            <a href="https://monoschinos2.com/anime/bem-sub-espanol">
+                                <div class="media">
+                                    <img class="mr-3" src="/assets/img/serie/imagen/bem.jpg">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 mb-1">Bem</h5>
+                                        <small><i class="fa fa-podcast"></i> Finalizado</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="result-item">
+                            <a href="https://monoschinos2.com/anime/bem-sub-espanol">
+                                <div class="media">
+                                    <img class="mr-3" src="/assets/img/serie/imagen/bem.jpg">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 mb-1">Bem</h5>
+                                        <small><i class="fa fa-podcast"></i> Finalizado</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="result-item">
+                            <a href="https://monoschinos2.com/anime/bem-sub-espanol">
+                                <div class="media">
+                                    <img class="mr-3" src="/assets/img/serie/imagen/bem.jpg">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 mb-1">Bem</h5>
+                                        <small><i class="fa fa-podcast"></i> Finalizado</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="nav-toggle" onclick="toggleMenu()"><i class='bx bx-menu-alt-right'></i></div>
+        <div class="nav-toggle" onclick="toggleMenu()">
+            <i class='bx bx-menu'></i>
+        </div>
         <nav class="nav-overlay" id="nav-overlay">
             <li class="nav-item-overlay">
                 <i class='bx bx-home'></i>
@@ -197,7 +235,14 @@
             </article>
         </div>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="social-links"></div>
+        <div class="disclaimer">
+            <p>
+                Cargar Comentarios MonosChinos © 2020 Todos los derechos reservados - Ningun video se encuentra alojado en nuestros servidores. No somos fansub, todos los vídeos enlazados son tomados de internet, de sitios webs gratuitos.
+            </p>
+        </div>
+    </footer>
     <script src="./src/js/main.js"></script>
 </body>
 
